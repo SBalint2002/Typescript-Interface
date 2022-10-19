@@ -28,19 +28,5 @@ sportok.sort((a, b) => a.date.getTime() - b.date.getTime());
 for (let sport of sportok) {
     sport.result();
 }
-/* interface Streamelheto {
-    cim: string;
-    hossz: number;
-} */
-/* type Streamelheto ={
-    cim: string;
-    hossz: number;
-}
-
-type AlapTipus = number | boolean | string;
-
-let streamelhetoTermekek: Streamelheto[] = [
-    new Film('Harry Potter', 2000),
-    new Zene('Sweet child of mine', 200),
-    { cim: 'Thunderstruck', hossz: 198}
-] */ 
+document.addEventListener("DOMContentLoaded", () => {
+});
